@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="88d63cd2-16ed-40c5-8876-aff1855e7393" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/findElements_Example.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/findElements_Example.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/images/fire-island-beach-house-360-virtual-tour.webp" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/images/3d.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Property_Management/AddPropertyByOwner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Property_Management/AddPropertyByOwner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Property_Management/EditPropertyByOwner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Property_Management/EditPropertyByOwner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,28 +50,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Application.AddPropertyByOwner.executor": "Run",
-    "Application.Demo.executor": "Run",
-    "Application.EditPropertyByOwner.executor": "Run",
-    "Application.Property_Testing.executor": "Run",
-    "Application.findElements_Example.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/bonguyen/Documents/Study & Work/Selenium/AutoTesting_Selenium/src/test",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Application.AddPropertyByOwner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Demo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EditPropertyByOwner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HandlingMultipleWindows.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Property_Testing.executor&quot;: &quot;Run&quot;,
+    &quot;Application.findElements_Example.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/bonguyen/Desktop/Software Testing/Selenium/AutoTesting_Selenium&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/test" />
@@ -80,7 +82,7 @@
       <recent name="Property_Management" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.HandlingMultipleWindows">
     <configuration name="AddPropertyByOwner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Property_Management.AddPropertyByOwner" />
       <module name="SeleniumWithMaven" />
@@ -95,6 +97,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="HandlingMultipleWindows" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HandlingMultipleWindows" />
+      <module name="SeleniumWithMaven" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="findElements_Example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="findElements_Example" />
       <module name="SeleniumWithMaven" />
@@ -104,6 +113,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HandlingMultipleWindows" />
         <item itemvalue="Application.AddPropertyByOwner" />
         <item itemvalue="Application.Demo" />
         <item itemvalue="Application.findElements_Example" />
@@ -130,7 +140,16 @@
       <workItem from="1706390060393" duration="1960000" />
       <workItem from="1706395053922" duration="5902000" />
       <workItem from="1707354618167" duration="5311000" />
-      <workItem from="1707369196429" duration="4855000" />
+      <workItem from="1707369196429" duration="5219000" />
+      <workItem from="1707407876810" duration="614000" />
+      <workItem from="1707410412875" duration="6936000" />
+      <workItem from="1707969158599" duration="5000" />
+      <workItem from="1707969168245" duration="800000" />
+      <workItem from="1708230831744" duration="2285000" />
+      <workItem from="1708978307771" duration="60000" />
+      <workItem from="1712114326568" duration="108000" />
+      <workItem from="1712115647487" duration="2051000" />
+      <workItem from="1712194811614" duration="3539000" />
     </task>
     <servers />
   </component>

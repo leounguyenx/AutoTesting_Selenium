@@ -8,10 +8,18 @@ import org.openqa.selenium.interactions.Actions;
 
 import java.io.File;
 import java.time.Duration;
+import java.util.Random;
 
 public class AddPropertyByOwner {
 
     public static void main(String[] args) throws InterruptedException {
+
+        //Generate random number
+        Random random = new Random();
+        int generateRandom = random.nextInt(1000);
+        int bedRoom = random.nextInt(10);
+
+
         WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.get("http://localhost:3000/authenticate");
@@ -23,24 +31,24 @@ public class AddPropertyByOwner {
         driver.findElement(By.xpath("//button[@type='button']")).click();
 
         //Add property
-        Thread.sleep(Duration.ofSeconds(2));
-        driver.findElement(By.xpath("//button[normalize-space()='Add property']")).click();
-        if (driver.findElement(By.xpath("//h2[normalize-space()='Create new property']")).getText().equals("Create new property")){
+        Thread.sleep(Duration.ofSeconds(1));
+        driver.findElement(By.xpath("//a[normalize-space()='+ Add property']")).click();
+        if (driver.findElement(By.xpath("//h1[normalize-space()='Create new property']")).getText().equals("Create new property")){
             driver.findElement(By.xpath("//div[contains(@class,'g-sidenav-show')]//div[1]//div[1]//button[1]")).click();
             driver.findElement(By.xpath("//a[normalize-space()='Town home']")).click();
 
-            driver.findElement(By.xpath("//input[@id='propertyPrice']")).sendKeys("123456789");
-            driver.findElement(By.xpath("//input[@id='numberOfRoom']")).sendKeys("2");
-            driver.findElement(By.xpath("//input[@id='street']")).sendKeys("Create by automation test");
-            driver.findElement(By.xpath("//input[@id='city']")).sendKeys("Testing City");
+            driver.findElement(By.xpath("//input[@id='propertyPrice']")).sendKeys("100"+generateRandom);
+            driver.findElement(By.xpath("//input[@id='numberOfRoom']")).sendKeys(""+ bedRoom);
+            driver.findElement(By.xpath("//input[@id='street']")).sendKeys("Create by automation test " + generateRandom);
+            driver.findElement(By.xpath("//input[@id='city']")).sendKeys("Testing City " + generateRandom);
 
-            WebElement element = driver.findElement(By.cssSelector("body > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > main:nth-child(2) > div:nth-child(3) > form:nth-child(1) > div:nth-child(7) > div:nth-child(2) > button:nth-child(1)"));
+            WebElement element = driver.findElement(By.cssSelector("body > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > main:nth-child(2) > div:nth-child(4) > form:nth-child(1) > div:nth-child(7) > div:nth-child(2) > button:nth-child(1)"));
             Actions actions = new Actions(driver);
             actions.moveToElement(element).click().build().perform();
 
             WebElement element2 = driver.findElement(By.xpath("//a[normalize-space()='Alabama']"));
             actions.moveToElement(element2).click().build().perform();
-            driver.findElement(By.xpath("//input[@id='postalCode']")).sendKeys("9999");
+            driver.findElement(By.xpath("//input[@id='postalCode']")).sendKeys(""+generateRandom);
 
             //Click on "Submit"
             WebElement element3 = driver.findElement(By.xpath("//button[normalize-space()='Submit']"));
@@ -61,6 +69,14 @@ public class AddPropertyByOwner {
                 System.out.println("Uploaded");
             }
 
+            //360 Image
+            File uploadFile3D = new File("src/test/images/3d.webp");
+            Thread.sleep(Duration.ofSeconds(1));
+            WebElement fileInput2 = driver.findElement(By.xpath("(//input[@name='file'])[2]"));
+            fileInput2.sendKeys(uploadFile3D.getAbsolutePath());
+            driver.findElement(By.xpath("//button[normalize-space()='Upload 3D images']")).click();
+
+            Thread.sleep(5001);
             //Back to properties list after created a property
             WebElement element4 = driver.findElement(By.xpath("//a[normalize-space()='Back to properties']"));
             actions.moveToElement(element4).click().build().perform();
@@ -80,7 +96,7 @@ public class AddPropertyByOwner {
 
 
 
-        Thread.sleep(Duration.ofSeconds(2));
+        Thread.sleep(Duration.ofSeconds(3));
         driver.quit();
     }
 }

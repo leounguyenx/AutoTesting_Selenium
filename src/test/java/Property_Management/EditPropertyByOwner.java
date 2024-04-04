@@ -4,6 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.interactions.Actions;
 
 import java.io.File;
@@ -12,7 +13,11 @@ import java.time.Duration;
 public class EditPropertyByOwner {
 
     public static void main(String[] args) throws InterruptedException {
-        WebDriver driver = new ChromeDriver();
+        ChromeOptions options = new ChromeOptions();
+        options.addArguments("force-device-scale-factor=0.75");
+        options.addArguments("high-dpi-support=0.75");
+        WebDriver driver = new ChromeDriver(options);
+        //WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.get("http://localhost:3000/authenticate");
 
@@ -21,6 +26,8 @@ public class EditPropertyByOwner {
         driver.findElement(By.xpath("//input[@placeholder='User name']")).sendKeys("bowner");
         driver.findElement(By.xpath("//input[@placeholder='password']")).sendKeys("1");
         driver.findElement(By.xpath("//button[@type='button']")).click();
+
+
 
         //Go to Edit property of the first property
         Thread.sleep(Duration.ofSeconds(2));
