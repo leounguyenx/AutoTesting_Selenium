@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="88d63cd2-16ed-40c5-8876-aff1855e7393" name="Changes" comment="MultipleWindowWithHelperMethod">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="88d63cd2-16ed-40c5-8876-aff1855e7393" name="Changes" comment="Handle popup, alert, dialog">
+      <change beforePath="$PROJECT_DIR$/src/test/java/WaitingMechanism/Timeout.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WaitingMechanism/Timeout.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +37,9 @@
       </UrlAndAccount>
     </option>
   </component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
+}]]></component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -185,7 +187,7 @@
       <workItem from="1712115647487" duration="2051000" />
       <workItem from="1712194811614" duration="8316000" />
       <workItem from="1712269261400" duration="14243000" />
-      <workItem from="1712425739240" duration="14851000" />
+      <workItem from="1712425739240" duration="14990000" />
     </task>
     <task id="LOCAL-00001" summary="MultipleWindowWithHelperMethod">
       <option name="closed" value="true" />
@@ -195,7 +197,23 @@
       <option name="project" value="LOCAL" />
       <updated>1712204225634</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Wait mechanism">
+      <option name="closed" value="true" />
+      <created>1712443202368</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1712443202368</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Handle popup, alert, dialog">
+      <option name="closed" value="true" />
+      <created>1712443226687</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1712443226687</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -219,7 +237,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="MultipleWindowWithHelperMethod" />
-    <option name="LAST_COMMIT_MESSAGE" value="MultipleWindowWithHelperMethod" />
+    <MESSAGE value="Wait mechanism" />
+    <MESSAGE value="Handle popup, alert, dialog" />
+    <option name="LAST_COMMIT_MESSAGE" value="Handle popup, alert, dialog" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

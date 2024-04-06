@@ -18,11 +18,9 @@ public class ImplicitExplicitWait {
 
         /**Implicit Wait and Explicit Wait**/
         /**Implicit
-         *
          * Maximum time to wait is 10 secs until throw exception
          * If element is available, it will not wait
          * Global wait (All the elements have the maximum waiting time
-         *
          * Implicit time should be max 10 secs
          * **/
         //driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
@@ -34,7 +32,6 @@ public class ImplicitExplicitWait {
         //Thread.sleep(Duration.ofMillis(10000));
 
         /**Explicit
-         *
          * Solve the global waiting time for all the elements with different max waiting time
          * 1.WebDriverWait
          * 2.FluentWait
