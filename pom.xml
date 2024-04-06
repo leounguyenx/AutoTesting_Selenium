@@ -19,7 +19,7 @@
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-java</artifactId>
-            <version>4.17.0</version>
+            <version>4.19.1</version>
         </dependency>
 
         <!--https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager-->
@@ -28,6 +28,15 @@
             <artifactId>webdrivermanager</artifactId>
             <version>5.6.3</version>
         </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.testng/testng -->
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>7.9.0</version>
+            <scope>test</scope>
+        </dependency>
+
 
 
     </dependencies>
