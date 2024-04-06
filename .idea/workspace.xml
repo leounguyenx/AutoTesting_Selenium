@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="88d63cd2-16ed-40c5-8876-aff1855e7393" name="Changes" comment="Handle popup, alert, dialog">
-      <change beforePath="$PROJECT_DIR$/src/test/java/WaitingMechanism/Timeout.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WaitingMechanism/Timeout.java" afterDir="false" />
-    </list>
+    <list default="true" id="88d63cd2-16ed-40c5-8876-aff1855e7393" name="Changes" comment="Handle popup, alert, dialog" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -187,7 +185,7 @@
       <workItem from="1712115647487" duration="2051000" />
       <workItem from="1712194811614" duration="8316000" />
       <workItem from="1712269261400" duration="14243000" />
-      <workItem from="1712425739240" duration="14990000" />
+      <workItem from="1712425739240" duration="15308000" />
     </task>
     <task id="LOCAL-00001" summary="MultipleWindowWithHelperMethod">
       <option name="closed" value="true" />
@@ -213,7 +211,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712443226687</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Handle popup, alert, dialog">
+      <option name="closed" value="true" />
+      <created>1712443581552</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1712443581552</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
