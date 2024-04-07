@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="88d63cd2-16ed-40c5-8876-aff1855e7393" name="Changes" comment="Handle popup, alert, dialog" />
+    <list default="true" id="88d63cd2-16ed-40c5-8876-aff1855e7393" name="Changes" comment=".">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,9 +37,9 @@
       </UrlAndAccount>
     </option>
   </component>
-  <component name="KubernetesApiProvider"><![CDATA[{
-  "isMigrated": true
-}]]></component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -52,47 +54,50 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Application.AddPropertyByOwner.executor": "Run",
-    "Application.Alert.executor": "Run",
-    "Application.AlertHandling.executor": "Run",
-    "Application.AlertPrompt.executor": "Run",
-    "Application.AuthenticationPopup.executor": "Run",
-    "Application.BoostrapModalHandling.executor": "Run",
-    "Application.Demo.executor": "Run",
-    "Application.EditPropertyByOwner.executor": "Run",
-    "Application.HandlingMultipleWindows.executor": "Debug",
-    "Application.LightboxHandling.executor": "Run",
-    "Application.LoadingProcessWait.executor": "Run",
-    "Application.MultipleWindowWithHelperMethod.executor": "Run",
-    "Application.PermissionPopup.executor": "Run",
-    "Application.Property_Testing.executor": "Run",
-    "Application.Timeout.executor": "Run",
-    "Application.createNewWindow.executor": "Run",
-    "Application.findElements_Example.executor": "Run",
-    "Application.waitAlert.executor": "Run",
-    "Application.waitClickable.executor": "Run",
-    "Application.waitLoading.executor": "Run",
-    "Application.waitingMechanism.executor": "Run",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "TestNG.AuthenticationPopup.executor": "Run",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/bonguyen/Desktop/Software Testing/Selenium/AutoTesting_Selenium",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Application.AddPropertyByOwner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Alert.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AlertHandling.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AlertPrompt.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AuthenticationPopup.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BoostrapModalHandling.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Demo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DropdownHTML.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Dropdowns.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EditPropertyByOwner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HandlingMultipleWindows.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.LightboxHandling.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ListboxField.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LoadingProcessWait.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MultipleWindowWithHelperMethod.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PermissionPopup.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Property_Testing.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Timeout.executor&quot;: &quot;Run&quot;,
+    &quot;Application.createNewWindow.executor&quot;: &quot;Run&quot;,
+    &quot;Application.findElements_Example.executor&quot;: &quot;Run&quot;,
+    &quot;Application.waitAlert.executor&quot;: &quot;Run&quot;,
+    &quot;Application.waitClickable.executor&quot;: &quot;Run&quot;,
+    &quot;Application.waitLoading.executor&quot;: &quot;Run&quot;,
+    &quot;Application.waitingMechanism.executor&quot;: &quot;Run&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;TestNG.AuthenticationPopup.executor&quot;: &quot;Run&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/bonguyen/Desktop/Software Testing/Selenium/AutoTesting_Selenium&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/test" />
@@ -104,7 +109,7 @@
       <recent name="Property_Management" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LightboxHandling">
+  <component name="RunManager">
     <configuration name="AuthenticationPopup" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AuthenticationPopup" />
       <module name="SeleniumWithMaven" />
@@ -146,10 +151,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AuthenticationPopup" />
         <item itemvalue="Application.LightboxHandling" />
         <item itemvalue="Application.BoostrapModalHandling" />
         <item itemvalue="Application.PermissionPopup" />
-        <item itemvalue="Application.AuthenticationPopup" />
         <item itemvalue="TestNG.AuthenticationPopup" />
       </list>
     </recent_temporary>
@@ -185,7 +190,8 @@
       <workItem from="1712115647487" duration="2051000" />
       <workItem from="1712194811614" duration="8316000" />
       <workItem from="1712269261400" duration="14243000" />
-      <workItem from="1712425739240" duration="15308000" />
+      <workItem from="1712425739240" duration="22466000" />
+      <workItem from="1712459458461" duration="2208000" />
     </task>
     <task id="LOCAL-00001" summary="MultipleWindowWithHelperMethod">
       <option name="closed" value="true" />
@@ -219,7 +225,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712443581552</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary=".">
+      <option name="closed" value="true" />
+      <created>1712443620118</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1712443620118</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -245,7 +259,8 @@
     <MESSAGE value="MultipleWindowWithHelperMethod" />
     <MESSAGE value="Wait mechanism" />
     <MESSAGE value="Handle popup, alert, dialog" />
-    <option name="LAST_COMMIT_MESSAGE" value="Handle popup, alert, dialog" />
+    <MESSAGE value="." />
+    <option name="LAST_COMMIT_MESSAGE" value="." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
