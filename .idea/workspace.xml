@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="88d63cd2-16ed-40c5-8876-aff1855e7393" name="Changes" comment="Dropdown handling &amp; keyAction">
+    <list default="true" id="88d63cd2-16ed-40c5-8876-aff1855e7393" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/BootstrapDropdown.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Dropdown/BootstrapDropdown.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/JQueryDropdown.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Dropdown/JQueryDropdown.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +16,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -59,6 +58,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.AShotLib_FullpageScreenshot.executor": "Run",
     "Application.AddPropertyByOwner.executor": "Run",
     "Application.Alert.executor": "Run",
     "Application.AlertHandling.executor": "Run",
@@ -67,21 +67,34 @@
     "Application.AutosuggestiveDropdowns.executor": "Run",
     "Application.BoostrapModalHandling.executor": "Run",
     "Application.BootstrapDropdown.executor": "Run",
+    "Application.ClickAndHold.executor": "Run",
+    "Application.ContextClick.executor": "Run",
+    "Application.ContextClickJQuery.executor": "Run",
     "Application.Demo.executor": "Run",
+    "Application.DoubleClick.executor": "Run",
+    "Application.DragAndDrop.executor": "Run",
     "Application.DropdownHTML.executor": "Run",
     "Application.Dropdowns.executor": "Run",
     "Application.EditPropertyByOwner.executor": "Run",
     "Application.FrameByIndex.executor": "Run",
+    "Application.FullpageScreenshot.executor": "Run",
     "Application.HandlingMultipleWindows.executor": "Debug",
     "Application.JQueryDropdown.executor": "Run",
+    "Application.KeyDownUp.executor": "Run",
     "Application.LightboxHandling.executor": "Run",
     "Application.ListboxField.executor": "Run",
     "Application.LoadingProcessWait.executor": "Run",
+    "Application.MoveToElements.executor": "Run",
     "Application.MultipleWindowWithHelperMethod.executor": "Run",
     "Application.NestedFrames.executor": "Run",
+    "Application.OtherOptions.executor": "Run",
     "Application.PermissionPopup.executor": "Run",
+    "Application.PressKeys.executor": "Run",
     "Application.Property_Testing.executor": "Run",
     "Application.RelativeFrames.executor": "Run",
+    "Application.Resizing.executor": "Run",
+    "Application.ScreenshotWithRobotClass.executor": "Run",
+    "Application.TakingScreenshots.executor": "Run",
     "Application.Timeout.executor": "Run",
     "Application.WebElementOfAFrame.executor": "Run",
     "Application.createNewWindow.executor": "Run",
@@ -105,7 +118,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -118,19 +131,20 @@
       <recent name="$PROJECT_DIR$/src/test/java" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Screenshots" />
+      <recent name="MouseKeyboardEvents" />
       <recent name="Frame" />
       <recent name="" />
       <recent name="WaitingMechanism" />
-      <recent name="Property_Management" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FrameByIndex">
-    <configuration name="FrameByIndex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Frame.FrameByIndex" />
+  <component name="RunManager" selected="Application.AShotLib_FullpageScreenshot">
+    <configuration name="AShotLib_FullpageScreenshot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Screenshots.AShotLib_FullpageScreenshot" />
       <module name="SeleniumWithMaven" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Frame.*" />
+          <option name="PATTERN" value="Screenshots.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,12 +152,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FrameByNameLocator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Frame.FrameByNameLocator" />
+    <configuration name="Firefox_FullpageScreenshot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Screenshots.Firefox_FullpageScreenshot" />
       <module name="SeleniumWithMaven" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Frame.*" />
+          <option name="PATTERN" value="Screenshots.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -151,12 +165,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NestedFrames" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Frame.NestedFrames" />
+    <configuration name="OtherOptions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Screenshots.OtherOptions" />
       <module name="SeleniumWithMaven" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Frame.*" />
+          <option name="PATTERN" value="Screenshots.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -164,12 +178,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RelativeFrames" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Frame.RelativeFrames" />
+    <configuration name="ScreenshotWithRobotClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Screenshots.ScreenshotWithRobotClass" />
       <module name="SeleniumWithMaven" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Frame.*" />
+          <option name="PATTERN" value="Screenshots.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -177,12 +191,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WebElementOfAFrame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Frame.WebElementOfAFrame" />
+    <configuration name="TakingScreenshots" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Screenshots.TakingScreenshots" />
       <module name="SeleniumWithMaven" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Frame.*" />
+          <option name="PATTERN" value="Screenshots.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -192,11 +206,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FrameByIndex" />
-        <item itemvalue="Application.RelativeFrames" />
-        <item itemvalue="Application.NestedFrames" />
-        <item itemvalue="Application.WebElementOfAFrame" />
-        <item itemvalue="Application.iFrameByNameLocator" />
+        <item itemvalue="Application.AShotLib_FullpageScreenshot" />
+        <item itemvalue="Application.ScreenshotWithRobotClass" />
+        <item itemvalue="Application.Firefox_FullpageScreenshot" />
+        <item itemvalue="Application.OtherOptions" />
+        <item itemvalue="Application.TakingScreenshots" />
       </list>
     </recent_temporary>
   </component>
@@ -236,7 +250,13 @@
       <workItem from="1712511398847" duration="1781000" />
       <workItem from="1712517025547" duration="7280000" />
       <workItem from="1713219645046" duration="6165000" />
-      <workItem from="1713234426134" duration="4147000" />
+      <workItem from="1713234426134" duration="4985000" />
+      <workItem from="1714261877037" duration="2027000" />
+      <workItem from="1714264437586" duration="45000" />
+      <workItem from="1714264488079" duration="40000" />
+      <workItem from="1714264561211" duration="18853000" />
+      <workItem from="1714401033167" duration="25000" />
+      <workItem from="1714401063487" duration="1709000" />
     </task>
     <task id="LOCAL-00001" summary="MultipleWindowWithHelperMethod">
       <option name="closed" value="true" />
@@ -286,7 +306,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713231854762</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Handling Mouse and Keyboard events">
+      <option name="closed" value="true" />
+      <created>1714347758160</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1714347758160</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -314,7 +342,8 @@
     <MESSAGE value="Handle popup, alert, dialog" />
     <MESSAGE value="." />
     <MESSAGE value="Dropdown handling &amp; keyAction" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dropdown handling &amp; keyAction" />
+    <MESSAGE value="Handling Mouse and Keyboard events" />
+    <option name="LAST_COMMIT_MESSAGE" value="Handling Mouse and Keyboard events" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

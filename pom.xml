@@ -19,7 +19,7 @@
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-java</artifactId>
-            <version>4.19.1</version>
+            <version>4.20.0</version>
         </dependency>
 
         <!--https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager-->
@@ -36,6 +36,13 @@
             <artifactId>testng</artifactId>
             <version>7.9.0</version>
             <scope>test</scope>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/ru.yandex.qatools.ashot/ashot -->
+        <dependency>
+            <groupId>ru.yandex.qatools.ashot</groupId>
+            <artifactId>ashot</artifactId>
+            <version>1.5.4</version>
         </dependency>
 
 
