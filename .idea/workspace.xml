@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="88d63cd2-16ed-40c5-8876-aff1855e7393" name="Changes" comment="">
+    <list default="true" id="88d63cd2-16ed-40c5-8876-aff1855e7393" name="Changes" comment="Capturing a screenshot">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,14 +130,14 @@
       <recent name="$PROJECT_DIR$/src/test/java" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Calendar" />
       <recent name="Screenshots" />
       <recent name="MouseKeyboardEvents" />
       <recent name="Frame" />
       <recent name="" />
-      <recent name="WaitingMechanism" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AShotLib_FullpageScreenshot">
+  <component name="RunManager" selected="Application.GenericMethod_DatePicker">
     <configuration name="AShotLib_FullpageScreenshot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Screenshots.AShotLib_FullpageScreenshot" />
       <module name="SeleniumWithMaven" />
@@ -158,6 +157,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Screenshots.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GenericMethod_DatePicker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Calendar.GenericMethod_DatePicker" />
+      <module name="SeleniumWithMaven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Calendar.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -191,26 +203,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TakingScreenshots" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Screenshots.TakingScreenshots" />
-      <module name="SeleniumWithMaven" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Screenshots.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GenericMethod_DatePicker" />
         <item itemvalue="Application.AShotLib_FullpageScreenshot" />
         <item itemvalue="Application.ScreenshotWithRobotClass" />
         <item itemvalue="Application.Firefox_FullpageScreenshot" />
         <item itemvalue="Application.OtherOptions" />
-        <item itemvalue="Application.TakingScreenshots" />
       </list>
     </recent_temporary>
   </component>
@@ -256,7 +255,7 @@
       <workItem from="1714264488079" duration="40000" />
       <workItem from="1714264561211" duration="18853000" />
       <workItem from="1714401033167" duration="25000" />
-      <workItem from="1714401063487" duration="1709000" />
+      <workItem from="1714401063487" duration="11796000" />
     </task>
     <task id="LOCAL-00001" summary="MultipleWindowWithHelperMethod">
       <option name="closed" value="true" />
@@ -314,7 +313,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714347758160</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Capturing a screenshot">
+      <option name="closed" value="true" />
+      <created>1714402822222</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1714402822222</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -343,7 +350,8 @@
     <MESSAGE value="." />
     <MESSAGE value="Dropdown handling &amp; keyAction" />
     <MESSAGE value="Handling Mouse and Keyboard events" />
-    <option name="LAST_COMMIT_MESSAGE" value="Handling Mouse and Keyboard events" />
+    <MESSAGE value="Capturing a screenshot" />
+    <option name="LAST_COMMIT_MESSAGE" value="Capturing a screenshot" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
