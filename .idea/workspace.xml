@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="88d63cd2-16ed-40c5-8876-aff1855e7393" name="Changes" comment="Capturing a screenshot">
+    <list default="true" id="88d63cd2-16ed-40c5-8876-aff1855e7393" name="Changes" comment="Handling datepicker">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -108,10 +108,12 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "TestNG.AuthenticationPopup.executor": "Run",
+    "TestNG.ChromeHeadless.executor": "Run",
+    "TestNG.ChromeHeadless.verifyTitle.executor": "Run",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/bonguyen/Desktop/Software Testing/Selenium/AutoTesting_Selenium",
+    "last_opened_file_path": "/Users/bonguyen/Desktop/Software Testing/Test Automation Foundation/stickerfy",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -137,22 +139,9 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.GenericMethod_DatePicker">
+  <component name="RunManager" selected="TestNG.ChromeHeadless">
     <configuration name="AShotLib_FullpageScreenshot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Screenshots.AShotLib_FullpageScreenshot" />
-      <module name="SeleniumWithMaven" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Screenshots.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Firefox_FullpageScreenshot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Screenshots.Firefox_FullpageScreenshot" />
       <module name="SeleniumWithMaven" />
       <extension name="coverage">
         <pattern>
@@ -177,19 +166,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OtherOptions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Screenshots.OtherOptions" />
-      <module name="SeleniumWithMaven" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Screenshots.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ScreenshotWithRobotClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Screenshots.ScreenshotWithRobotClass" />
       <module name="SeleniumWithMaven" />
@@ -203,13 +179,48 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ChromeHeadless" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumWithMaven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Headless.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Headless" />
+      <option name="MAIN_CLASS_NAME" value="Headless.ChromeHeadless" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ChromeHeadless.verifyTitle" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumWithMaven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Headless.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Headless" />
+      <option name="MAIN_CLASS_NAME" value="Headless.ChromeHeadless" />
+      <option name="METHOD_NAME" value="verifyTitle" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ChromeHeadless" />
+        <item itemvalue="TestNG.ChromeHeadless.verifyTitle" />
         <item itemvalue="Application.GenericMethod_DatePicker" />
         <item itemvalue="Application.AShotLib_FullpageScreenshot" />
         <item itemvalue="Application.ScreenshotWithRobotClass" />
-        <item itemvalue="Application.Firefox_FullpageScreenshot" />
-        <item itemvalue="Application.OtherOptions" />
       </list>
     </recent_temporary>
   </component>
@@ -255,7 +266,9 @@
       <workItem from="1714264488079" duration="40000" />
       <workItem from="1714264561211" duration="18853000" />
       <workItem from="1714401033167" duration="25000" />
-      <workItem from="1714401063487" duration="11796000" />
+      <workItem from="1714401063487" duration="13635000" />
+      <workItem from="1714668987948" duration="52000" />
+      <workItem from="1714869295670" duration="877000" />
     </task>
     <task id="LOCAL-00001" summary="MultipleWindowWithHelperMethod">
       <option name="closed" value="true" />
@@ -321,7 +334,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714402822222</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Handling datepicker">
+      <option name="closed" value="true" />
+      <created>1714504081342</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1714504081342</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -351,7 +372,8 @@
     <MESSAGE value="Dropdown handling &amp; keyAction" />
     <MESSAGE value="Handling Mouse and Keyboard events" />
     <MESSAGE value="Capturing a screenshot" />
-    <option name="LAST_COMMIT_MESSAGE" value="Capturing a screenshot" />
+    <MESSAGE value="Handling datepicker" />
+    <option name="LAST_COMMIT_MESSAGE" value="Handling datepicker" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
